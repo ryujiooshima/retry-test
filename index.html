@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="UTF-8">
+    <meta name="viewport" content="width=device-widh, initial-scale=1.0">
+    <title>HTML&CSS 実践</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+  </head>  
+
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#service">店舗紹介</a></li>
+          <li><a href="#news">お知らせ</a></li>
+          <li><a href="#price">MENU・料金</a></li>
+          <li><a href="#contact">お問い合わせ</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="top">
+        <div class="top_wrap">
+          <h1>iPhone・スマホ修理なら当店へ！</h1>
+        </div>
+      </section>
+    </main>
+
+   
+
+    <section id="service">
+      <h2 class="section_title">店舗紹介</h2>
+      <div class="service_wrap">
+        <div class="service_left">
+          <img src="img/service.png" alt="サービス画像">
+        </div>
+        <div class="service_right">
+          <h3>iPhone修理・スマホ修理なら当店へ！</h3>
+          <p>スピーディーで高品質<br>そしてリーズナブルな修理サービスへ</p>
+          <hr>
+          <p>
+            [A1586]<br>
+            表示装置・フレーム・マイク・スピーカー・カメラ・操作ボタン<br>
+            コネクタ・バイブレータ・電池・リペアパネルを除く<br>
+        
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="news">
+      <h2 class="section_title">お知らせ</h2>
+      <div class="news_wrap">
+        <p>信頼の総務省登録修理業者</p>
+        <p>より多くの方に、より安心できるサービスを</p>
+        <p>電気通信事業</p>
+      </div>
+    </section>
+
+    <section id="price">
+      <h2 class="section_title">MENU・料金</h2>
+      <div class="price_wrap">
+        <table>
+          <tr>
+            <th>修理メニュー</th>
+            <th>iPhone12</th>
+            <th>iPhone12 Pro</th>
+            <th>iPhone12 Pro Max</th>
+          </tr>
+          <tr>
+            <td>画面割れ・ガラス割れ</td>
+            <td>70,000円</td>
+            <td>70,000円</td>
+            <td>80,000円</td>
+          </tr>
+          <tr>
+            <td>液晶破損</td>
+            <td>70,000円</td>
+            <td>70,000円</td>
+            <td>80,000円</td>
+          </tr>
+          <tr>
+            <td>バッテリー修理・交換</td>
+            <td>要確認</td>
+            <td>要確認</td>
+            <td>要確認</td>
+          </tr>
+          <tr>
+            <td>水没</td>
+            <td>要確認</td>
+            <td>要確認</td>
+            <td>要確認</td>
+          </tr>
+          <tr>
+            <td>その他</td>
+            <td>要確認</td>
+            <td>要確認</td>
+            <td>要確認</td>
+          </tr>
+        </table>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2 class="section_title">お問い合わせ</h2>
+      <form class="form" method="post">
+      </form>
+      <div>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="user_name">
+      </div>
+      <div>
+        <label for="mail">E-mail:</label>
+        <input type="email" id="mail" name="user_mail">
+      </div>
+      <div>
+        <label for="tel">Tell:</label>
+        <input type="tel" id="tel" name="user_tel">
+      </div>
+      <div>
+        <label for="msg">Message:</label>
+        <textarea id="msg" name="user_message"></textarea>
+      </div>
+      <div class="button_submit">
+        <button class="button" type="submit">送信</button>
+      </div>
+    </section>
+
+    <footer id="footer">
+      <div>
+        <small>© 2021 WithCode All rights reserved.</small>
+      </div>
+    </footer>
+
+  </body>
+</html>
